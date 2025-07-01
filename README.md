@@ -4,10 +4,17 @@ As I conduct a deep dive into Swift Macros I have found there are very few examp
 
 For readability, each macro is implemented in a separate directory.
 
+
+
 #### Examples
 
+##### Member Macros
+
 1. **Hello World**. A simple attached macro that adds the method `sayHello()` to the type it is applied to, which prints "Hello, World!" to the console.
-2. **Hello World 2**. A simple attached macro that adds the method `sayHello()` to a class, which prints "Hello from {typeName}!" to the console.
+2. **Hello World 2**. An extension to **Hello World 1** that limits the macro to being attached to only classes and changes the message to "Hello from {typeName}!"
+3. **Hello World 3**. An extension to **Hello World 2** that allows `@HelloWorlding` to be applied to structs, actors, and enums.
+
+
 
 #### Useful Resources
 
