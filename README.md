@@ -7,8 +7,7 @@ For readability, each macro is implemented in a separate directory.
 #### Examples
 
 1. **Hello World**. A simple attached macro that adds the method `sayHello()` to the type it is applied to, which prints "Hello, World!" to the console.
-
-
+2. **Hello World 2**. A simple attached macro that adds the method `sayHello()` to a class, which prints "Hello from {typeName}!" to the console.
 
 #### Useful Resources
 
