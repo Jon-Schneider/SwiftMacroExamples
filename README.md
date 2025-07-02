@@ -13,6 +13,7 @@ For readability, each macro is implemented in a separate directory.
 1. **Hello World**. A simple attached macro that adds the method `sayHello()` to the type it is applied to, which prints "Hello, World!" to the console.
 2. **Hello World 2**. An extension to **Hello World 1** that limits the macro to being attached to only classes and changes the message to "Hello from {typeName}!"
 3. **Hello World 3**. An extension to **Hello World 2** that allows `@HelloWorlding` to be applied to structs, actors, and enums.
+4. **Hello Argument**. Macro that takes a string argument and adds the method `sayHello()` to the type its applied to, which prints "Hello {Arg}!" to the console.
 
 
 
