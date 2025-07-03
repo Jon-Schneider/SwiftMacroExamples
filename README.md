@@ -25,7 +25,11 @@ For readability, each macro is implemented in a separate directory.
 1. **Make a Friend**. Creates a class named `{typeMacroWasAppliedTo}Friend`.
 2. **Dependency Bag 2**. Identical to **Dependency Bag** except the dependency struct is generated as a peer to the type the Macro extends instead of nested inside it, and named `{AttachedType}Dependencies`.
 
+##### Composite Macros
 
+Composite macros implement more than one role, such as both Peer + Member.
+
+1. **Dependency Bag Injection**. An extension of **Dependency Bag 2** and **Memberwise Initializer**. Generates a dependency structure named `{Type}Dependencies` for a class or struct from a list of types passed as the macro argument, nested in its parent type and adds an custom initializer that takes the dependencies struct as an argument.
 
 #### Useful Resources
 
