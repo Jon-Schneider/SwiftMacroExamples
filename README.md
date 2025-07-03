@@ -22,6 +22,7 @@ For readability, each macro is implemented in a separate directory.
 ##### Peer Macros
 
 1. **Make a Friend**. Creates a class named `{typeMacroWasAppliedTo}Friend`.
+2. **Dependency Bag 2**. Identical to **Dependency Bag** except the dependency struct is generated as a peer to the type the Macro extends instead of nested inside it, and named `{AttachedType}Dependencies`.
 
 
 
