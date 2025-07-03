@@ -23,3 +23,4 @@ For readability, each macro is implemented in a separate directory.
 #### Useful Resources
 
 * [Swift AST Explorer](https://swift-ast-explorer.com/). Useful for looking at the Abstract Syntax Tree of nodes you are trying to generate or modify.
+* [List of `names:` Argument Values](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/attributes#attached)
