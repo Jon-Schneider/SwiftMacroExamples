@@ -18,6 +18,7 @@ For readability, each macro is implemented in a separate directory.
 6. **Hello Argument 3**. An extension to **Hello Argument 2** that takes an array of strings and adds the method `sayHello()` to the type its applied to, which prints "Hello {comma-separated list of string arguments}!" to the console.
 7. **Hello Argument 4**. An extension to **Hello Argument 3** that takes an array of strings and adds a separate hello method for each one named `sayHello{index}()` that prints "Hello {arg}". For example, `sayHello1()`.
 8. **Dependency Bag**. Generates a dependency struct named `Dependencies` for a class or struct from a list of types passed as the macro argument, nested in its parent type.
+9. **Memberwise Initalizer**. Generates a memberwise initializer for a class or structure from a list of types passed as the macro argument.
 
 ##### Peer Macros
 
