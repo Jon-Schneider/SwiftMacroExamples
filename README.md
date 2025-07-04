@@ -30,6 +30,7 @@ For readability, each macro is implemented in a separate directory.
 Composite macros implement more than one role, such as both Peer + Member.
 
 1. **Dependency Bag Injection**. An extension of **Dependency Bag 2** and **Memberwise Initializer**. Generates a dependency structure named `{Type}Dependencies` for a class or struct from a list of types passed as the macro argument, nested in its parent type and adds an custom initializer that takes the dependencies struct as an argument.
+2. **Dependency Bag Injection 2**. An extension of **Dependency Bag Injection** that adds a convenience accessor var to get each dependency from the `Dependency` struct on the object the macro is attached to.
 
 #### Useful Resources
 
