@@ -27,6 +27,10 @@ For readability, each macro is implemented in a separate directory.
 3. **Make a Friend 3**. Extension of **Make a Friend 2**. The friend class can only be generated for types that conform to a specific protocol
 4. **Dependency Bag 2**. Identical to **Dependency Bag** except the dependency struct is generated as a peer to the type the Macro extends instead of nested inside it, and named `{AttachedType}Dependencies`.
 
+##### Extension Macros
+
+1. **Class Extension**. Extends a class with a method.
+
 ##### Composite Macros
 
 Composite macros implement more than one role, such as both Peer + Member.
