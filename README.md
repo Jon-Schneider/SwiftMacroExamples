@@ -31,6 +31,7 @@ For readability, each macro is implemented in a separate directory.
 
 1. **Class Extension**. Extends a class with a method.
 2. **Class Extension 2**. Adds a protocol conformance to a class.
+3. **Protocol Extension**. Adds a protocol extension with a default method implementation.
 
 ##### Composite Macros
 
